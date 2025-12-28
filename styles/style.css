@@ -6,9 +6,7 @@
   padding-left: 24px;
   padding-bottom: 92px;
   padding-right: 24px;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
+
 }
 
 .header_menu {
@@ -29,11 +27,13 @@
   font-weight: 400;
   text-underline-offset: 4px;
   text-decoration: underline;
+  
 }
 
 .main_link_marker {
   list-style-type: none;
   text-decoration: none;
+  
 }
 
 .link_main {
@@ -53,6 +53,7 @@
   font-family: "Raleway", sans-serif;
   list-style-type: none;
   font-style: normal;
+
 }
 .no-underline {
     text-decoration: none;
@@ -292,16 +293,18 @@
 
 .footer_address {
   padding-left: 1px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+.footer_address a {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
-
 .footer_menu {
    padding-left: 154px; /*26 */
 padding-right: 177px; /* добавил*/
 }
-
 .footer_menu_links {
   list-style-type: none;
   text-underline-offset: 3px;
@@ -331,4 +334,16 @@ text-decoration: none;
 .footer_images {
   display: flex;
   gap: 48px;
+}
+.address_text {
+  text-decoration: none;
+}
+.address a {
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 4px !important;
+}
+.header_address,
+.address_text {
+  text-decoration: none !important;
 }
