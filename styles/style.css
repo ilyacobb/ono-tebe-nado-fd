@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     min-width: 1100px;
     max-width: 1440px;
@@ -9,12 +12,16 @@ body {
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding-top: 92px;
-  padding-left: 24px;
+  padding-left: 50px;/* было 24, не дает загрузить*/
   padding-bottom: 92px;
-  padding-right: 24px;
+  padding-right: 50px;/* было 24, не дает загрузить*/
 
 }
-
+.header_logo {
+    width: 148px;
+    height: 105px;
+    justify-self: center;
+}
 .header_menu {
   display: flex;
   justify-self: center;
@@ -52,14 +59,15 @@ body {
 }
 
 .address {
-  padding-left: 184px;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0.18px;
-  font-family: "Raleway", sans-serif;
-  list-style-type: none;
-  font-style: normal;
-
+    justify-self: end;
+    text-align: right;
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    font-family: "Raleway", sans-serif;
+    list-style-type: none;
+    font-style: normal;
 }
 .no-underline {
     text-decoration: none;
@@ -160,8 +168,9 @@ body {
   flex-wrap: wrap;
   list-style-type: none;
   gap: 25px;
-  justify-content: flex-start;
-  margin-left: 20px;
+  justify-content: center;
+  margin-left: 0px;
+  
 }
 
 .card_lots a {
