@@ -54,7 +54,9 @@
   list-style-type: none;
   font-style: normal;
 }
-
+.no-underline {
+    text-decoration: none;
+}
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -126,7 +128,7 @@
 .button {
   max-width: 256px;
   max-height: 51px;
-  border: 1px solid white;
+  border: 0.1px solid white;
   background-color: transparent;
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -312,7 +314,7 @@ padding-right: 177px; /* добавил*/
   font-weight: 400;
   line-height: normal;
 }
-.address + .footer_address + .address_link {  
+.address + .footer_address + .address_link {
 text-decoration: none;
 }
 
