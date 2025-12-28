@@ -1,35 +1,36 @@
 .header {
-
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding-top: 93px;
+  padding-top: 92px;
   padding-left: 24px;
-  padding-bottom: 95px;
+  padding-bottom: 92px;
   padding-right: 24px;
-
 }
 
 .header_menu {
- display: flex;
- justify-self: center;
+  display: flex;
+  justify-self: center;
+
 }
 
 .menu_links {
-display: flex;
-gap: 31.5px;
-padding-right: 7px;
-list-style-type: circle;
+  display: flex;
+  gap: 32px;
+  list-style-type: circle;
+  padding-right: 7px;
 }
 
 .link_list {
   font-size: 18px;
   font-weight: 400;
-  text-underline-offset: 4px;
+  text-underline-offset: 4px; 
+  text-decoration: underline;
 }
 
 .main_link_marker {
-  list-style-type: none;
+  list-style-type: none; 
+  text-decoration: none;
 }
 
 .link_main {
@@ -37,17 +38,18 @@ list-style-type: circle;
 }
 
 .header_logo {
-width: 148;
-height: 105;
+  width: 148px;
+  height: 105px;
 }
 
 .address {
- padding-left: 184px;
+  padding-left: 184px;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 24px;
+  letter-spacing: 0.18px;
   font-family: "Raleway", sans-serif;
   list-style-type: none;
-  font-style: normal;
+  font-style: normal;  
 }
 
 .cover {
@@ -181,24 +183,16 @@ height: 105;
   background-position: center;
 }
 
-
 .card_about_cinema {
-background-image: url(/images/card-lot-01.jpg);
-width: 334;
-height: 596;
-opacity: 1;
+  background-image: url(./../images/card-lot-01.jpg);
 }
+
 .card_about_book {
-  background-image: url(/images/card-lot-02.jpg);
-  width: 334;
-  height: 596;
-  opacity: 1;
+  background-image: url(./../images/card-lot-02.jpg);
 }
+
 .card_about_picture {
-  background-image: url(/images/card-lot-03.jpg);
-  width: 334;
-  height: 596;
-  opacity: 1;
+  background-image: url(./../images/card-lot-03.jpg);
 }
 .card_title {
   color: white;
