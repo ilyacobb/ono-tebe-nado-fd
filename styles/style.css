@@ -183,17 +183,23 @@ height: 105;
 
 
 .card_about_cinema {
-  background-image: url(/images/card-lot-01.jpg);
+background-image: url(/images/card-lot-01.jpg);
+width: 334;
+height: 596;
+opacity: 1;
 }
-
 .card_about_book {
   background-image: url(/images/card-lot-02.jpg);
+  width: 334;
+  height: 596;
+  opacity: 1;
 }
-
 .card_about_picture {
   background-image: url(/images/card-lot-03.jpg);
+  width: 334;
+  height: 596;
+  opacity: 1;
 }
-
 .card_title {
   color: white;
   font-size: 22px;
